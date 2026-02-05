@@ -1,0 +1,17 @@
+# task 1
+report_task:
+  description: >
+    generate a detailed report based on the given {topic}, generate the report including all the latest 
+    facts and future trends in the structured way.
+  expected_output: >
+    2000 words long report on the {topic}, no gramatical error.
+  agent: report_generator
+
+# task 2
+blog_task:
+  description: >
+    generate a detailed blog based on the given {topic}, generate the blog including all the latest 
+    facts and future trends in the structured way.
+  expected_output: >
+    500 words long blog on the {topic}, no gramatical error.
+  agent: blog_writer
