@@ -1,12 +1,11 @@
-Here’s a polished, corporate-ready README for your Crew AI project, written in a professional, recruiter-friendly style, highlighting skills that employers value:
-
----
-
 # Research & Blog Automation Crew – AI-Powered Content Generation
 
 **Author:** Amit Kumar Jaiswal
+
 **Project Type:** Corporate AI Workflow Automation
+
 **Tech Stack:** Python, CrewAI, LLM (Ollama Phi3), YAML, Markdown
+
 **Date:** February 2026
 
 ---
