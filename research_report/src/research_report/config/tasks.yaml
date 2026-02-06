@@ -1,0 +1,18 @@
+researching_task:
+  description: >
+    breakdown the topic and research about the topic in full research paper way. Make sure the research 
+    finding involves all the latest facts and informations. vary recent and very factual and origianl informations.
+  expected_output: >
+    A full research found in notes format and in no more than 5000 words
+  agent: researcher_agent
+
+writer_task:
+  description: >
+    Summarize the complete notes provided by the researching task and write a full research paper
+    in IEEE format. Use citations only when you are confident they are real; otherwise clearly
+    mark them as placeholder citations. Do not fabricate sources.
+  expected_output: >
+    A full research paper in IEEE format with no grammatical errors and formating errors. Research paper should not exceed more 
+    than 8 pages excluding references. the research paper must contain the real and legitimate citations,  minimum 15 citations in IEEE format.
+    Do not constrain refrences with word count provide atleast 15 references minimum and all refrences should be legitimate and real and existing on internet.
+  agent: writer_agent
